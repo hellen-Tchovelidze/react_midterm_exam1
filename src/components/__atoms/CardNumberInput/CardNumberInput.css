@@ -8,7 +8,7 @@
   .error {
     color: red;
     font-size: 14px;
-    margin-top: 10px;
+    
   }
   
 
@@ -22,4 +22,12 @@
     line-height: normal;
     letter-spacing: 2px;
     text-transform: uppercase;
+  }
+
+  .bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
   }

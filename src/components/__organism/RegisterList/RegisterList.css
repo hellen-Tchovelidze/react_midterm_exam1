@@ -36,7 +36,7 @@
 .error {
   color: red;
   font-size: 14px;
-  margin-top: 10px;
+  
 }
 
 .headind_listreg {
@@ -113,7 +113,8 @@ input[type="number"] {
     flex-direction: column;
     align-items: center;
     width: 100%;
-    margin-bottom: 2%;
+    margin-bottom: 6%;
+  
   }
 
   .boxx {
@@ -123,10 +124,16 @@ input[type="number"] {
     align-items: start;
     gap: 20px;
   }
+
+
 }
 
 
 @media (max-width: 756px) {
+
+  .conte{
+    margin-bottom: 9%;
+  }
   .boxx{
     max-width: 
     327px;

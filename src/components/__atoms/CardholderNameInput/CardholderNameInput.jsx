@@ -2,7 +2,7 @@ import React from "react";
 
 function CardholderNameInput({ name, onChange, error }) {
   return (
-    <div>
+    <div className="bio">
       <h1 className="list_text">Cardholder Name</h1>
       <input
         type="text"

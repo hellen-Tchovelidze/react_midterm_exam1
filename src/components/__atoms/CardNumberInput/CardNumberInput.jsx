@@ -2,7 +2,7 @@ import React from "react";
 import "./CardNumberInput.css"
 function CardNumberInput({ cardNumber, onChange, error }) {
   return (
-    <div>
+    <div className="bio">
       <h1 className="list_text">Card Number</h1>
       <input
         type="text"

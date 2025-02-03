@@ -19,6 +19,14 @@
   .error {
     color: red;
     font-size: 14px;
-    margin-top: 10px;
+    
   }
   
+
+  .bio{
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: column;
+    gap: 5px;
+  }
