@@ -1,4 +1,4 @@
-import "./background.css"
+import "../../__molecules/Background/Background.css"
 import Backgroundimg from "../../../assets/images/backimg.png"
 
 function Background() {
