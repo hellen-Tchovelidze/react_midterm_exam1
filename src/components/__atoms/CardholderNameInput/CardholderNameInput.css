@@ -1,0 +1,24 @@
+.input {
+    max-width: 381px;
+    width: 100%;
+    height: 45px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #dfdee0);
+  }
+  
+  .list_text {
+    color: var(--Deep-Violet, #21092F);
+    font-family: "Space Grotesk";
+    font-size: 12px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }
+  
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  

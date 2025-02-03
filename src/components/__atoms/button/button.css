@@ -1,0 +1,17 @@
+.btn{
+    border-radius: 8px;
+background: var(--Deep-Violet, #21092F);
+max-width: 381px;
+width: 100%;
+height: 53px;
+color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Space Grotesk";
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+border:  none;
+}
+
+

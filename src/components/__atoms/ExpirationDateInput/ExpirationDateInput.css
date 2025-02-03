@@ -1,0 +1,23 @@
+.headind_listreg {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 220px;
+  width: 100%;
+}
+
+.mm_yy {
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: var(--White, #fff);
+  width: 80px;
+  height: 45px;
+}
+
+.year {
+  width: 191px;
+  height: 45px;
+  border-radius: 8px;
+  border: 1px solid var(--Light-Grey, #dfdee0);
+  background: var(--White, #fff);
+}

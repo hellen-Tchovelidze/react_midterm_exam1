@@ -1,0 +1,103 @@
+.CardForNums_div {
+  max-width: 447px;
+  width: 100%;
+  height: 245px;
+  background-image: url("../../../assets/images/Cardofnum.png");
+  position: absolute;
+  top: 120px;
+  left: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-direction: column;
+  padding: 30px;
+}
+
+.cardofimg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.circle_conteiner {
+  width: 84px;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.circle {
+  width: 46.96px;
+  height: 47px;
+  border-radius: 100%;
+  background: rgba(255, 255, 255, 1);
+}
+
+.circle_trans {
+  width: 21.13px;
+  height: 21.15px;
+  border-radius: 100%;
+  border: 1px solid var(--White, #fff);
+}
+
+.number_cards {
+  color: var(--White, #fff);
+  font-feature-settings: "liga" off, "clig" off;
+  font-family: "Space Grotesk";
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 3.422px;
+}
+
+@media (max-width: 1285px) {
+  .CardForNums_div {
+    width: 285px;
+    height: 156.21px;
+    top: 140px;
+    left: 30%;
+    border-radius: 4px;
+    position: absolute;
+    z-index: 2;
+  }
+
+  .circle_conteiner {
+    width: 70px;
+    height: 40px;
+  }
+
+  .circle {
+    width: 38px;
+    height: 38px;
+  }
+
+  .circle_trans {
+    width: 18px;
+    height: 18px;
+  }
+
+  .number_cards {
+    font-family: Space Grotesk;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 22.97px;
+    letter-spacing: 2.200000047683716px;
+    text-align: left;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+  }
+}
+
+@media (max-width: 756px) {
+  .CardForNums_div {
+    left: 25%;
+  }
+}
+
+@media (max-width: 444px) {
+  .CardForNums_div {
+    left: 5%;
+  }
+}

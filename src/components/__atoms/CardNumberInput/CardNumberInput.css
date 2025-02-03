@@ -1,0 +1,25 @@
+.input {
+    width: 381px;
+    height: 45px;
+    padding: 5px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #dfdee0);
+  }
+  .error {
+    color: red;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  
+
+  .list_text{
+    color: var(--Deep-Violet, #21092F);
+    font-feature-settings: 'liga' off, 'clig' off;
+    font-family: "Space Grotesk";
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+  }

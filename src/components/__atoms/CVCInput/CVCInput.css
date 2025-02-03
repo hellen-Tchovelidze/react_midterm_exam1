@@ -1,0 +1,8 @@
+.year {
+    width: 191px;
+    height: 45px;
+    border-radius: 8px;
+    border: 1px solid var(--Light-Grey, #DFDEE0);
+    background: var(--White, #FFF);
+  }
+  

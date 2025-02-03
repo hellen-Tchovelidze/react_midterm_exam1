@@ -1,0 +1,35 @@
+.cardname{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 381px;
+    width: 100%;
+}
+
+.name_heading{
+    color: var(--White, #FFF);
+font-feature-settings: 'liga' off, 'clig' off;
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
+
+
+.name_num{
+    color: var(--White, #FFF);
+text-align: right;
+font-feature-settings: 'liga' off, 'clig' off;
+
+/* Body (L) */
+font-family: "Space Grotesk";
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: 2px;
+text-transform: uppercase;
+}
